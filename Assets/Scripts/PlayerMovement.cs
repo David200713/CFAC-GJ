@@ -77,8 +77,8 @@ public class PlayerMovement : MonoBehaviour
 
     void CheckInput()
     {
-        xInput = Input.GetAxis("Horizontal");
-        yInput = Input.GetAxis("Vertical");
+        xInput = Input.GetAxisRaw("Horizontal");
+        yInput = Input.GetAxisRaw("Vertical");
     }
 
 
